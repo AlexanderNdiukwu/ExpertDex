@@ -7,7 +7,7 @@ import LandingDetails from '../LandingDetails/LandingDetails'
 import LandingGetStarted from '../LandingGetStarted/LandingGetStarted'
 import Subcribe from '../Subscribe/Subcribe'
 import Footer from '../Footer/Footer'
-import Stats from '../landingstats/stats'
+import Stats from '../landingstats/Stats'
 import Reviews from '../Section/Reviews'
 import SubscribeLetter from '../Subscribe/SubscribeLetter'
 
