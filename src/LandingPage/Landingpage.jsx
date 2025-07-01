@@ -16,7 +16,7 @@ const Landingpage = () => {
   return (
     <div className='' >
 
-        <div className='bg-[url(/image/mainsector/mobilebg.png)] lg:bg-[url(/image/landingpage/exportlandingp.png)] bg-cover bg-center lg:h-[100vh]   bg-no-repeat border '>
+        <div className='bg-[url(/image/mainsector/mobilebg.png)] md:bg-[url(/image/landingpage/exportlandingp.png)] bg-cover bg-center lg:h-[100vh]   bg-no-repeat border '>
         
         <div className=''>
             <Navbar/>

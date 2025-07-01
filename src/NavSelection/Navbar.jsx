@@ -55,7 +55,7 @@ const Navbar = () => {
             </div>
 
             {/* <div className='lg:hidden'> */}
-            <div className={`lg:hidden ${show ? 'hidden' :'block'}`}>
+            <div className={`md:hidden ${show ? 'hidden' :'block'}`}>
 
                 <img src="/image/mainsector/meunbar.png" alt="" onClick={showmenubar} />
             </div>

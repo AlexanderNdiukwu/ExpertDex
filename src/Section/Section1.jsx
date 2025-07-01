@@ -18,7 +18,7 @@ const Section1 = () => {
 
 
         <div className='lg:py-10 py-3'>
-          <div className='lg:flex justify-between '>
+          <div className='md:flex justify-between '>
           <div className=''>
             <Clientdet/>
 
