@@ -7,7 +7,7 @@ export default function Clientdet() {
         <div>
 
             <div className=''>
-                <img src="/image/mainsector/clientlogo.png" alt="client" />
+                <img src="/image/mainsector/clientlogo.png" alt="client"/>
             </div>
 
 

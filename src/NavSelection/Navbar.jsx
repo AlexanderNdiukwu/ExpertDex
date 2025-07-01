@@ -15,7 +15,7 @@ const Navbar = () => {
 
 
   return (
-    <div className={`${show ? 'bg-white' : 'bg-transparent'} `}>
+    <div className={`text-white ${show ? 'bg-white' : 'bg-transparent'} `}>
     {/* <div className='text-white w-full  '> */}
 
         <div className='flex items-center lg:mx-[158px] mx-[15.5px]   justify-between lg:pt-2 pt-3 '>
@@ -50,16 +50,16 @@ const Navbar = () => {
                 <div className='flex  '>
                 {/* <SignUpButton style='border-2 bg-[#0037C6]  border-[#0037C6] flex items-center justify-center  text-center w-45 h-15 rounded-[20px]'/> */}
 
-                    <SignUpButton style='bg-[#0037C6] text-center border-[#0037C6] px-[40px] py-[15px] justify-center flex items-center  rounded-[15px]'/> 
+                    <SignUpButton style='bg-[#0037C6] text-white text-center border-[#0037C6] px-[40px] py-[15px] justify-center flex items-center  rounded-[15px]'/> 
                 </div>
             </div>
 
             {/* <div className='lg:hidden'> */}
-            <div className={`${show ? 'hidden' :'block'}`}>
+            <div className={`lg:hidden ${show ? 'hidden' :'block'}`}>
 
                 <img src="/image/mainsector/meunbar.png" alt="" onClick={showmenubar} />
             </div>
-            <div className={`${show ? 'block':'hidden'}`}>
+            <div className={`lg:hidden ${show ? 'block':'hidden'}`}>
             {/* <div className='lg:hidden'> */}
                 <img src="/image/cancel.png" alt="" onClick={Cancelmenubar} />
             </div>

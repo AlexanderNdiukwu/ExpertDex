@@ -25,13 +25,13 @@ const Landingpage = () => {
        
     <div className='flex flex-col'>
 
-        <div className=' lg:pt-[75px] pt-[60px]'>
+        <div className=' lg:pt-[60px] pt-[60px]'>
             <HeroDes/>
 
           
         </div> 
 
-         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-34 pb-7 lg:pb-0 items-center'>
+         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-20 pb-7 lg:pb-0 items-center'>
               <Stats stats='4.5K+' details='Vehicles Registered'/>
               <Stats stats='200+' details='Industry Clients Served'/>
               <Stats stats='98%' details='On-time delivery'/>
