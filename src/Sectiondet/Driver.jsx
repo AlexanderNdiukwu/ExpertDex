@@ -19,7 +19,7 @@ export default function Driver() {
             <div className=''>
               <div className='flex lg:gap-5 gap-2 lg:items-center  '>
                  <div className='w-14 h-14 '>
-                <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>1</p>
+                <p className='lg:size-[55px] size-[42px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>1</p>
 
                  </div>
                 <div className='w-90 '>
@@ -33,7 +33,7 @@ export default function Driver() {
               <div className='lg:py-2 py-1'>
               <div className='flex lg:gap-5 gap-2 lg:items-center '>
                  <div className='w-14 h-14 '>
-                <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>2</p>
+                <p className='lg:size-[55px] size-[42px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>2</p>
 
                  </div>
                 <div className='w-90 '>
@@ -48,7 +48,7 @@ export default function Driver() {
               <div className='lg:py-2 py-1'>
               <div className='flex lg:gap-5 gap-2 lg:items-center'>
                  <div className='w-14 h-14 '>
-                <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>3</p>
+                <p className='lg:size-[55px] size-[42px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>3</p>
 
                  </div>
                 <div className='w-90 '>
