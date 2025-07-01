@@ -10,18 +10,18 @@ const HeroDes = () => {
 
         <div className='  text-white '>
           <div className='leading-none'>
-            <p className=' lg:text-[64px] whitespace-nowrap text-4xl font-semibold '>
+            <p className=' md:text-[64px] whitespace-nowrap text-4xl font-semibold '>
               
            Powering Logistics 
             </p>
 
-            <p className='hidden lg:block  lg:text-[64px] text-4xl font-semibold '>
+            <p className='hidden md:block  md:text-[64px] text-4xl font-semibold '>
               for Heavy  Industries.
 
             </p>
 
 
-            <p className='block lg:hidden lg:text-[64px] text-4xl font-semibold '>
+            <p className='block md:hidden md:text-[64px] text-4xl font-semibold '>
               for Heavy <br></br> Industries.
 
             </p>
