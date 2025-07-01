@@ -14,7 +14,14 @@ const HeroDes = () => {
               
            Powering Logistics 
             </p>
-            <p className='lg:text-[64px] text-4xl font-semibold '>
+
+            <p className='hidden lg:block  lg:text-[64px] text-4xl font-semibold '>
+              for Heavy  Industries.
+
+            </p>
+
+
+            <p className='block lg:hidden lg:text-[64px] text-4xl font-semibold '>
               for Heavy <br></br> Industries.
 
             </p>
