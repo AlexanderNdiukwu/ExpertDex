@@ -14,7 +14,7 @@ const LandingDetails = () => {
 
 
           <div className='my-3 '>
-          <p className='font-normal lg:w-[945px] w-full text-base  px-10 text-center'>ExpertDex is built specifically for the complex demands of the manufacturing, oil, and gas industries. Whether you're transporting sensitive equipment or maximizing the value of your vehicle, our platform ensures secure, efficient, and reliable logistics</p>
+          <p className='font-normal lg:w-[945px] w-full text-base  lg:px-10 text-center'>ExpertDex is built specifically for the complex demands of the manufacturing, oil, and gas industries. Whether you're transporting sensitive equipment or maximizing the value of your vehicle, our platform ensures secure, efficient, and reliable logistics</p>
         </div>
 
           </div>
