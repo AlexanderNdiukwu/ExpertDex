@@ -2,7 +2,7 @@ import React, { Suspense } from 'react'
 import Navbar from '../NavSelection/Navbar'
 import HeroDes from '../HeroDescription/HeroDes'
 import Section1 from '../Section/Section1'
-import Section2 from '../Section/Reviews'
+
 import LandingDetails from '../LandingDetails/LandingDetails'
 import LandingGetStarted from '../LandingGetStarted/LandingGetStarted'
 import Subcribe from '../Subscribe/Subcribe'
@@ -35,6 +35,7 @@ const Landingpage = () => {
               <Stats stats='4.5K+' details='Vehicles Registered'/>
               <Stats stats='200+' details='Industry Clients Served'/>
               <Stats stats='98%' details='On-time delivery'/>
+              
            </div>
 
      
