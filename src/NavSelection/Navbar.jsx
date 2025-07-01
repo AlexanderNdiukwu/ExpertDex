@@ -9,15 +9,19 @@ const Navbar = () => {
     let showmenubar = ()=>{
         setShow(!show)
     }
+    let Cancelmenubar = ()=>{
+        setShow(!show)
+    }
 
 
   return (
-    <div className='text-white w-full  '>
+    <div className={`${show ? 'bg-white' : 'bg-transparent'} `}>
+    {/* <div className='text-white w-full  '> */}
 
         <div className='flex items-center lg:mx-[158px] mx-[15.5px]   justify-between lg:pt-2 pt-3 '>
             <div className='flex gap-2  '>
             <div className=''>
-                <img src="/image/NavBarimages/expertlogo.png" alt="logo" className=' ' />
+                <img src="/image/NavBarimages/expertlogo.png" alt="logo" className='' />
 
             </div>
             <div>
@@ -41,6 +45,7 @@ const Navbar = () => {
             </div>
 
 
+            {/* <div className={`${show ? 'hidden':'block'}`}> */}
             <div className='hidden md:block'>
                 <div className='flex  '>
                 {/* <SignUpButton style='border-2 bg-[#0037C6]  border-[#0037C6] flex items-center justify-center  text-center w-45 h-15 rounded-[20px]'/> */}
@@ -49,8 +54,14 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className='lg:hidden'>
+            {/* <div className='lg:hidden'> */}
+            <div className={`${show ? 'hidden' :'block'}`}>
+
                 <img src="/image/mainsector/meunbar.png" alt="" onClick={showmenubar} />
+            </div>
+            <div className={`${show ? 'block':'hidden'}`}>
+            {/* <div className='lg:hidden'> */}
+                <img src="/image/cancel.png" alt="" onClick={Cancelmenubar} />
             </div>
 
 
