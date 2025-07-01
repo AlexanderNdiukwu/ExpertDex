@@ -25,7 +25,7 @@ const Navbar = () => {
 
             </div>
             <div>
-                <p className='text-2xl font-normal'>ExpertDex</p>
+                <p className={`text-2xl font-normal ${show ? 'text-black' : 'text-white'}`}>ExpertDex</p>
 
             </div>
 
