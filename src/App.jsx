@@ -11,8 +11,7 @@ function App() {
 
     <div>
       <Landingpage/>
-      {/* <AboutUs/> */}
-      {/* <SignUp /> */}
+ 
     </div>
   
   )
