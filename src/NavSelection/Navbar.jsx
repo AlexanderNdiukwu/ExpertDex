@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className='flex items-center lg:mx-[158px] mx-[15.5px]   justify-between lg:pt-2 pt-3 '>
             <div className='flex gap-2  '>
             <div className=''>
-                <img src="../images/NavBarimages/expertlogo.png" alt="logo" className=' ' />
+                <img src="/image/NavBarimages/expertlogo.png" alt="logo" className=' ' />
 
             </div>
             <div>

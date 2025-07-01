@@ -5,7 +5,7 @@ const Reviews = () => {
     <div className=''>
      <div className='grid justify-center items-center'>
         <div className='flex justify-center text-center  items-center'>
-          <p className='lg:text-[56px] text-[32px] font-bold'>Hear What our Users Have to Say</p>
+          <p className='lg:text-[56px] text-4xl text-wrap font-bold'>Hear What our Users Have to Say</p>
         </div>
 
         <div className='my-3 '>

@@ -5,7 +5,7 @@ const InputField = () => {
     <div>
         <div className='lg:flex text-center'>
             <p className=''>
-            <input type="text" placeholder='Enter your email' className='border p lg:rounded-l-lg rounded-lg lg:pr-80 pr-40 py-3 pl-3' />
+            <input type="text" placeholder='Enter your email' className='border p lg:rounded-l-lg rounded-lg lg:pr-80 pr-20 py-3 pl-3' />
 
             </p>
 

@@ -10,12 +10,12 @@ const HeroDes = () => {
 
         <div className='  text-white '>
           <div className='leading-none'>
-            <p className=' lg:text-[64px] text-[40px] font-semibold '>
+            <p className=' lg:text-[64px] text-4xl font-semibold '>
               
            Powering Logistics 
             </p>
-            <p className='lg:text-[64px] text-[40px] font-semibold '>
-              for Heavy Industries.
+            <p className='lg:text-[64px] text-4xl font-semibold '>
+              for Heavy <br></br> Industries.
 
             </p>
 
@@ -24,7 +24,8 @@ const HeroDes = () => {
 
           
 
-            <p className='lg:w-xl text-base font-normal pt-4 text-black w-[360px] '>
+            <p className='lg:w-xl text-base font-normal pt-4 text-black w-full '>
+            {/* <p className='lg:w-xl text-base font-normal pt-4 text-black w-[360px] '> */}
             ExpertDex bridges the gap between businesses that need reliable, heavy-duty transportation and verified drivers with the right vehicles to deliver. Whether you are a company moving critical equipment or a vehicle owner looking to maximize your income, our platform offers a seamless and efficient solution
             </p>
 
