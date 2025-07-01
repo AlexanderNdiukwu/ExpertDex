@@ -15,7 +15,7 @@ export default function Clientdet() {
 
 
 
-            <div className='flex flex-col gap-5 pt-4 '>
+            <div className='flex flex-col lg:gap-5  pt-4 '>
             <div className=''>
               <div className='flex lg:gap-5 gap-2 lg:items-center  '>
                 <div className='w-14 h-14 '>
@@ -32,7 +32,7 @@ export default function Clientdet() {
             </div>
 
 
-             <div className='py-2'>
+             <div className='lg:py-2 py-1'>
               <div className='flex lg:gap-5 gap-2 lg:items-center '>
                 <div className='w-14 h-14 '>
                 <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#0073FF] text-xl'>2</p>
@@ -50,7 +50,7 @@ export default function Clientdet() {
             </div>
 
 
-             <div className='py-2'>
+             <div className='lg:py-2 py-1'>
               <div className='flex lg:gap-5 gap-2 lg:items-center '>
                 <div className='w-14 h-14 '>
                 <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#0073FF] text-xl'>3</p>
