@@ -8,13 +8,13 @@ const LandingDetails = () => {
         <div className='grid justify-center items-center text-white '>
 
           <div>
-            <p className='text-center text-[32px]  lg:text-[56px] font-bold  '>
+            <p className='text-center text-4xl  lg:text-[56px] font-bold  '>
              Why ExpertDex?
             </p>
 
 
           <div className='my-3 '>
-          <p className='font-normal lg:w-[945px] w-[390px] text-base  px-10 text-center'>ExpertDex is built specifically for the complex demands of the manufacturing, oil, and gas industries. Whether you're transporting sensitive equipment or maximizing the value of your vehicle, our platform ensures secure, efficient, and reliable logistics</p>
+          <p className='font-normal lg:w-[945px] w-full text-base  px-10 text-center'>ExpertDex is built specifically for the complex demands of the manufacturing, oil, and gas industries. Whether you're transporting sensitive equipment or maximizing the value of your vehicle, our platform ensures secure, efficient, and reliable logistics</p>
         </div>
 
           </div>

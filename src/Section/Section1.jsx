@@ -11,7 +11,7 @@ const Section1 = () => {
         </div>
 
         <div className='my-3 '>
-          <p className='font-normal lg:w-[945px] w-[390px] text-base px-10 text-center'>Whether you're a business needing reliable transport or a driver looking for steady jobs, ExpertDex makes industrial logistics seamless. Here’s how each side of the platform works</p>
+          <p className='font-normal lg:w-[945px] w-full text-base px-10 text-center'>Whether you're a business needing reliable transport or a driver looking for steady jobs, ExpertDex makes industrial logistics seamless. Here’s how each side of the platform works</p>
         </div>
 
         </div>

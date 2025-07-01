@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
 
 
-            <div className='w-80 h-20 py-4'>
+            <div className='lg:w-80 h-20 py-4'>
                 ExpertDex mission statement is lorem ipsum dolor cit mesas ribuit mun chuy tun jesdt by lkir ryte one 
             </div>
 

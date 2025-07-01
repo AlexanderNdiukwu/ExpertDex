@@ -5,11 +5,11 @@ const Reviews = () => {
     <div className=''>
      <div className='grid justify-center items-center'>
         <div className='flex justify-center text-center  items-center'>
-          <p className='lg:text-[56px] text-4xl text-wrap font-bold'>Hear What our Users Have to Say</p>
+          <p className='lg:text-[56px] text-4xl  font-bold'>Hear What our Users Have to Say</p>
         </div>
 
         <div className='my-3 '>
-          <p className='font-normal lg:w-[945px] w-[390px] px-10 text-center'>Here’s what some of our users have to say - both clients and drivers</p>
+          <p className='font-normal lg:w-[945px] w-full lg:px-10   text-center'>Here’s what some of our users have to say - both clients and drivers</p>
         </div>
 
       </div>
