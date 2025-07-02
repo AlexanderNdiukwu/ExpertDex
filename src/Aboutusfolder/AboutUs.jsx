@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 
 import Stats from '../landingstats/Stats'
 import Heroabout from './aboutsubfolder/Heroabout'
-import Aboutsec1 from './aboutsubfolder/aboutsec1'
+import Aboutsec1 from './aboutsubfolder/Aboutsec1'
 import Aboutdiff from './aboutsubfolder/Aboutdiff'
 import SubscribeLetter from '../Subscribe/SubscribeLetter'
 import Subcribe from '../Subscribe/Subcribe'
