@@ -18,7 +18,7 @@ export default function Contactpage() {
        
     <div className='flex flex-col'>
 
-        <div className=' lg:pt-[140px] pt-[70px] '>
+        <div className=' lg:pt-[140px] pt-[90px] '>
         {/* <div className=' lg:pt-[60px] pt-[60px] '> */}
             
             <ContactHero/>

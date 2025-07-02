@@ -24,7 +24,7 @@ export default function  AboutUs() {
        
     <div className='flex flex-col'>
 
-        <div className=' lg:pt-[130px] pt-[70px]'>
+        <div className=' lg:pt-[130px] pt-[90px]'>
         {/* <div className=' lg:pt-[75px] pt-[60px]'> */}
          <Heroabout/>
 

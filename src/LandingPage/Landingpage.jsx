@@ -23,9 +23,9 @@ const Landingpage = () => {
         </div> */}
 
        
-    <div className='flex flex-col justify-between'>
+    <div className='flex flex-col justify-between '>
 
-        <div className=' lg:pt-[130px] pt-[70px]'>
+        <div className=' lg:pt-[130px] pt-[90px]'>
         {/* <div className=' lg:pt-[60px] pt-[60px]'> */}
             <HeroDes/>
 
