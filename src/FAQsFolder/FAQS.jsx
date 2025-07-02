@@ -27,7 +27,7 @@ export default function FAQS() {
  
          <div className='relative grid lg:h-80 h-140 lg:justify-center'>
  
-             <div className='relative lg:bottom-80 bottom-90'>
+             <div className='relative lg:bottom-80 bottom-91'>
              <FAQSQuestion/>
  
              </div>
