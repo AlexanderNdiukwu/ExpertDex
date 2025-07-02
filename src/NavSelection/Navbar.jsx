@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import LoginButton from '../Buttons/LoginButton'
 import SignUpButton from '../Buttons/SignUpButton'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -36,10 +37,11 @@ const Navbar = () => {
 
             <div className='hidden md:block'>
                 <div className='text-base font-medium  flex gap-10  '>
-                    <p >Home</p>
-                    <p>About Us</p>
-                    <p>Contact Us</p>
-                    <p>FAQs</p>
+                    <p  ><Link to={'/'} >Home</Link></p>
+                    
+                    <p><Link to={'/AboutUs'} >About Us</Link></p>
+                    <p><Link to={'/Contactpage'} >Contact Us</Link></p>
+                    <p><Link to={'/FAQS'} >FAQs</Link></p>
 
                 </div>
             </div>
@@ -77,10 +79,10 @@ const Navbar = () => {
         <div className='bg-white w-full h-fit absolute grid py-4 transition-opacity ease-in-out duration-500 '>
 
             <div className='grid text-black py-3 gap-4 justify-center text-center'>
-                <p className='text-base font-medium hover:border-b border-black hover:bg-black/5'>Home</p>
-                <p className='text-base font-medium  hover:border-b border-black'>About Us </p>
-                <p className='text-base font-medium  hover:border-b border-black'>Contact Us</p>
-                <p className='text-base font-medium  hover:border-b border-black'>FAQs</p>
+                <p className='text-base font-medium hover:border-b border-black hover:bg-black/5'><Link to={'/'} >Home</Link></p>
+                <p className='text-base font-medium  hover:border-b border-black'><Link to={'/AboutUs'} >About Us</Link></p>
+                <p className='text-base font-medium  hover:border-b border-black'><Link to={'/Contactpage'} >Contact Us</Link></p>
+                <p className='text-base font-medium  hover:border-b border-black'><Link to={'/FAQS'} >FAQs</Link></p>
             </div>
 
             <div className='mx-10'>

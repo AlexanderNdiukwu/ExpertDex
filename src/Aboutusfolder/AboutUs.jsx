@@ -16,21 +16,22 @@ export default function  AboutUs() {
        <div className='bg-[url(/image/aboutimage/mobileabout.png)] lg:bg-[url(/image/aboutimage/aboutlogo.png)] bg-cover bg-center lg:h-[100vh]   bg-no-repeat border '>
 
        <div className='bg-black/20 lg:h-[100vh]'>
-
+{/* 
         <div className=''>
             <Navbar/>
-        </div>
+        </div> */}
 
        
     <div className='flex flex-col'>
 
-        <div className=' lg:pt-[75px] pt-[60px]'>
+        <div className=' lg:pt-[130px] pt-[70px]'>
+        {/* <div className=' lg:pt-[75px] pt-[60px]'> */}
          <Heroabout/>
 
           
         </div> 
 
-         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-34 pb-7 lg:pb-0 items-center'>
+         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-39 pb-7 lg:pb-0 items-center'>
               <Stats stats='4.5K+' details='Vehicles Registered'/>
               <Stats stats='200+' details='Industry Clients Served'/>
               <Stats stats='98%' details='On-time delivery'/>
@@ -76,10 +77,10 @@ export default function  AboutUs() {
 
 
 
-      
+{/*       
         <div className='lg:px-[163px] px-[17.5px] py-10 '>
             <Footer/>
-        </div>
+        </div> */}
 
       
     </div>

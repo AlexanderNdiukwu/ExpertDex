@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <div>
 
-        <div className='lg:w-2xl lg:h-[666px] grid lg:py-8 py-5  border rounded-xl border-black/10 lg:px-9 px-4 mx-4 lg:mx-0 bg-white'>
+        <div className='lg:w-2xl lg:h-[666px] grid lg:py-8 py-5  border rounded-xl shadow-2xl border-black/10 lg:px-9 px-4 mx-4 lg:mx-0 bg-white'>
             <div className='py-4 '>
                 <p className='lg:text-[56px] font-bold text-3xl whitespace-nowrap '>Get In Touch With Us</p>
             </div>

@@ -10,15 +10,16 @@ export default function Contactpage() {
 
         <div className='bg-[url(/image/contactimage/contactmobile.png)] md:bg-[url(/image/contactimage/contactlogo.png)] bg-cover h-[100vh]    bg-no-repeat border '>
         
-        <div className=''>
+        {/* <div className=''>
             <Navbar/>
         
-        </div>
+        </div> */}
 
        
     <div className='flex flex-col'>
 
-        <div className=' lg:pt-[60px] pt-[60px] '>
+        <div className=' lg:pt-[140px] pt-[70px] '>
+        {/* <div className=' lg:pt-[60px] pt-[60px] '> */}
             
             <ContactHero/>
 
@@ -29,20 +30,20 @@ export default function Contactpage() {
 
         </div>
 
-        <div className='relative grid lg:h-90 h-80 justify-center'>
+        <div className='relative grid lg:h-90 h-80 lg:justify-center'>
 
-            <div className='relative lg:bottom-70 bottom-80'>
+            <div className='relative lg:bottom-80 bottom-80'>
             <ContactForm/>
 
             </div>
         </div>
 
 
-
+{/* 
         <div className='lg:px-[163px] px-[17.5px] py-10 '>
             <Footer/>
         
-        </div>
+        </div> */}
 
 
       

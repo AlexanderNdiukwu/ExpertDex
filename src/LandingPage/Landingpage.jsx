@@ -18,20 +18,21 @@ const Landingpage = () => {
 
         <div className='bg-[url(/image/mainsector/mobilebg.png)] md:bg-[url(/image/landingpage/exportlandingp.png)] bg-cover bg-center lg:h-[100vh]   bg-no-repeat border '>
         
-        <div className=''>
+        {/* <div className=''>
             <Navbar/>
-        </div>
+        </div> */}
 
        
-    <div className='flex flex-col'>
+    <div className='flex flex-col justify-between'>
 
-        <div className=' lg:pt-[60px] pt-[60px]'>
+        <div className=' lg:pt-[130px] pt-[70px]'>
+        {/* <div className=' lg:pt-[60px] pt-[60px]'> */}
             <HeroDes/>
 
           
         </div> 
 
-         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-20 pb-7 lg:pb-0 items-center'>
+         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-35 pb-7 lg:pb-0 items-center'>
               <Stats stats='4.5K+' details='Vehicles Registered'/>
               <Stats stats='200+' details='Industry Clients Served'/>
               <Stats stats='98%' details='On-time delivery'/>
@@ -76,9 +77,9 @@ const Landingpage = () => {
         </div>
 
 
-        <div className='lg:px-[163px] px-[17.5px] py-10 '>
+        {/* <div className='lg:px-[163px] px-[17.5px] py-10 '>
             <Footer/>
-        </div>
+        </div> */}
 
 
       
