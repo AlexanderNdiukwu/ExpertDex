@@ -11,7 +11,7 @@ const SubscribeLetter = () => {
                 <img src="/image/mainsector/truck.png" alt="image" className=' w-full ' />
             </p>
         </div>
-        <div className='flex flex-col lg:gap-10 gap-5 py-10 lg:mx-20 mx-2'>
+        <div className='flex flex-col lg:gap-10 gap-5 py-10 lg:mx-20 mx-2  lg:justify-center'>
         {/* <div className='flex flex-col gap-10 py-40 mx-40'> */}
             <p className='lg:text-[56px] text-4xl text-center  font-bold '>
             {/* <p className='text-5xl font-medium '> */}
