@@ -6,7 +6,7 @@ const CountryInputField = ({name="Country"}) =>{
             <p>{name}</p>
             <div>
 
-            <input className="w-full border border-black h-[60px] rounded-xl px-3"  placeholder="Select country"/>
+            <input className="w-full border border-black h-[50px] rounded-xl px-3"  placeholder="Select country"/>
             </div>
         </div>
     )

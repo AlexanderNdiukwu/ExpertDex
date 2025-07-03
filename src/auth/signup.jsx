@@ -6,7 +6,16 @@ import GoogleBtn from "./component/googlebtn";
 
 const SignUp = () =>{
     return(
-        <div className="bg-white justify-center items-center flex pt-15 flex-col">
+
+        <div>
+
+            <div className="hidden md:block">
+                this is the desktop
+            </div>
+
+
+        <div className="lg:hidden block" >
+             <div className="bg-white justify-center  items-center flex pt-13 flex-col">
             <h1 className="text-[45px] block font-semibold">ExpertDEX</h1>
             <div className="w-full  p-3   ">
                 <InputField name={"First Name"}/>
@@ -30,6 +39,16 @@ const SignUp = () =>{
                 <GoogleBtn text={" continue with Apple "} />
             </div>
         </div>
+
+        </div>
+       
+
+
+        </div>
+
+        
+
+
     )
 }
 

@@ -24,7 +24,7 @@ export default function FAQSQuestion() {
                <div className='border border-[#868686] py-2 items-center px-2  rounded-lg lg:gap-4 flex justify-between lg:w-[555px] '>
                 <div>
 
-                    <p className='lg:text-2xl text-lg font-medium '>What types of vehicles can I book on ExpertDex?</p>
+                    <p className='lg:text-2xl text-lg font-medium '>What types of vehicles can I book on ExpertDex?</p> 
 
                 </div>
 

@@ -7,7 +7,7 @@ export default function ContactHero() {
 
         <div className='  text-white '>
           <div className='leading-none'>
-            <p className='hidden md:block md:text-[56px] whitespace-nowrap text-4xl font-semibold '>
+            <p className='hidden lg:block md:text-[56px]  whitespace-nowrap text-4xl font-semibold '>
               
           
 
@@ -16,7 +16,7 @@ export default function ContactHero() {
            
         
             </p>
-             <p className='block md:hidden md:text-[56px] whitespace-nowrap text-4xl font-semibold '>
+             <p className='block lg:hidden md:text-[56px] whitespace-nowrap text-4xl font-semibold '>
                We're here to help <br></br>—whether you're<br></br> moving goods <br></br> or moving forward.
           
         
