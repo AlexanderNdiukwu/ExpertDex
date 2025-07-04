@@ -6,11 +6,10 @@ export default function FAQS() {
   return (
   <div className='' >
  
-         <div className='bg-[url(/image/contactimage/contactmobile.png)] md:bg-[url(/image/contactimage/contactlogo.png)] bg-cover h-[100vh]    bg-no-repeat border '>
+         <div className='bg-[url(/image/FAQSimage/FAQSmobile.png)] md:bg-[url(/image/FAQSimage/FAQSlogo.png)] bg-cover h-[100vh]    bg-no-repeat border '>
          
-      
- 
-        
+      <div className='bg-black/15 lg:h-[100vh]'>
+          
      <div className='flex flex-col'>
  
          <div className=' lg:pt-[140px] pt-[90px] '>
@@ -22,6 +21,12 @@ export default function FAQS() {
          </div> 
  
      </div>
+
+
+        
+      </div>
+ 
+   
  
          </div>
  
