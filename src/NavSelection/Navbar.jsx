@@ -22,9 +22,20 @@ const Navbar = () => {
         <div className='flex items-center lg:mx-[158px] mx-[15.5px]   justify-between lg:pt-2 pt-3 '>
             <div className='flex gap-2  '>
             <div className=''>
+                <div className={`${show ? 'hidden':'block'}`}>
                 <img src="/image/NavBarimages/expertlogo.png" alt="logo" className='' />
 
+                </div>
+
+                  <div className={`${show ? 'block' : 'hidden'}`}>
+                <img src="/image/Expertlogo.png" alt="logo" className='' />
+
+                </div>
+
+
             </div>
+
+            
             <div>
                 <p className={`text-2xl font-normal ${show ? 'text-black' : 'text-white'}`}><Link to={'/'} >ExpertDex</Link></p>
 

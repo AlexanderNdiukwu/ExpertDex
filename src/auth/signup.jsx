@@ -35,6 +35,8 @@ const SignUp = () =>{
                     or
                     <hr className="w-[50%] ml-2"/>
                 </div>
+
+                
                 <GoogleBtn text={" continue with Google "} />
                 <GoogleBtn text={" continue with Apple "} />
             </div>
